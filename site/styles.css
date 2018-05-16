@@ -1,0 +1,110 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900');
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a,
+#cssmenu #menu-button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  }
+#cssmenu:after,
+#cssmenu > ul:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+#cssmenu #menu-button {
+  display: none;
+}
+#cssmenu {
+  width: auto;
+  font-family: Raleway, sans-serif;
+  line-height: 1;
+}
+#cssmenu > ul {
+  background: orange;
+}
+#cssmenu > ul > li {
+  float: left;
+  perspective: 1000px;
+}
+#cssmenu > ul > li > a {
+  padding: 16px 20px;
+  font-size: 14px;
+  color: #ffffff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: orange;
+}
+
+#box{ 
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+
+
+
+
+*{ /*Formata todos os elementos da página*/
+                padding:0px;
+                margin:0px; 
+            }
+            #topo{
+                width: 100%;
+                height: 500px; 
+                text-align: center; 
+                clear: both;
+                background-image:url(img/bg.jpg);
+                background-repeat: no-repeat;
+            }
+            #meio{
+                width: 100%; 
+                background-color: #f90; /*cor de fundo*/
+                height: 80%;; /*altura*/
+                background-color: orange;
+            }
+            
+            #conteudo{
+                padding: 10px; 
+                width: 100%;
+                float:left; 
+                background-color: orange;
+                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            
+            }
+            #rodape{
+                clear: both;
+                text-align: center; 
+                padding: 10px; 
+                background-color: #FB8B04;
+            }
+
+            h3{
+               font-family: Nunito Sans, Arial;
+            }
+            h1{
+               font-family: Lato;
+
+            }
+            /*footer*/
+            #left{
+               text-align: left;
+            }
+
+            #right{
+               text-align: right;
+            }
+            
+            
